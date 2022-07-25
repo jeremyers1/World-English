@@ -7,15 +7,62 @@ Making English easier to spell and read
 
 
 1. Clarify the alphabet. 
-	Each letter should have one sound and one sound only. A few additional letters will be 	needed to make this happen. 
+	Each consonant has one sound and one sound only. 
+	Each vowel has two sounds, a long and a short sound. Long sounds are indicated with doubled vowels. 
 
 2. Exterminate phonics. 
-	With the addition of a few letters to the alphabet, the need for phonics is eliminated.
+	Most phonics is eliminated.
 
 3. Remove spelling exceptions. 
-	There are no more complicated rules to remember which always have exceptions anyway. 
+	There are no more complicated spelling rules to remember (which always had exceptions anyway). 
 
 4. Reduce reading rules. 
 	There are only two rules now, which are found below. 
 	1. Each letter has one sound. 
 	2. Read the letters in order to form words. 
+
+## The World English Alphabet
+a - short a as in apple
+aa - long a as in ace
+b - as in book
+c - no longer used except in hard ch (Soft c as in city is now s. Hard c as in candy and hard ch as in chorus are now both k)
+d - as in dog
+e - short e as in end
+ee - long e as in eat
+f - as in frank
+g - only soft g as in green (all hard g's as in gym are now j)
+h - as in hello
+i - short i as in if
+ii - long i as in island
+j - as in jim
+k - as in kite
+l - as in life
+m - as in mom
+n - as in new
+o - short o as in olive
+oo - long o as in book
+p - as in pin
+q - no longer needed anywhere, all qu becomes kw
+r - as in rim
+s - as in silly
+t - as in top
+u - short u as in up
+uu - long u as in tune (si this needed? The differnce between oo and uu is whether the sound rolls off the roof of your mouth(oo as in book) or tongue (uu as in boom) ... maybe depends on whether it is followed with a gutteral, labial, or dental?)
+v - as in vowel
+w - as in wet
+x - no longer needed (all x's become ks)
+y - as in yellow
+z - as in zebra
+
+## Some example changes
+There are scores of spelling changes that result from the revised alphabet above. 
+The following, for example, are no longer needed:
+
+- all silent letters (b, c, e, g, k, s, as in climb, science, have, gnat, knife, island)
+- many phonics
+- nearly all double letters
+
+
+Helpful resources to see rules and exceptions to current English grammar
+https://englishstudyonline.org/
+https://englishstudyonline.org/words-with-silent-letters/
