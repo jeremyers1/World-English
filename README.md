@@ -1,27 +1,28 @@
 # World-English
+
 Making English easier to spell and read
 
-## Goal: To help English become the trade language of the world. 
+## Goal: To help English become the trade language of the world.
 
-## How: By making English easier to learn, spell, and read. 
+## How: By making English easier to learn, spell, and read.
 
+1. Clarify the alphabet.
+   Each consonant has one sound and one sound only.
+   Each vowel has two sounds, a long and a short sound. Long sounds are indicated with doubled vowels.
 
-1. Clarify the alphabet. 
-	Each consonant has one sound and one sound only. 
-	Each vowel has two sounds, a long and a short sound. Long sounds are indicated with doubled vowels. 
+2. Exterminate phonics.
+   Most phonics is eliminated.
 
-2. Exterminate phonics. 
-	Most phonics is eliminated.
+3. Remove spelling exceptions.
+   There are no more complicated spelling rules to remember (which always had exceptions anyway).
 
-3. Remove spelling exceptions. 
-	There are no more complicated spelling rules to remember (which always had exceptions anyway). 
-
-4. Reduce reading rules. 
-	There are only two rules now, which are found below. 
-	1. Each letter has one sound. 
-	2. Read the letters in order to form words. 
+4. Reduce reading rules.
+   There are only two rules now, which are found below.
+   1. Each letter has one sound.
+   2. Read the letters in order to form words.
 
 ## The World English Alphabet
+
 a - short a as in apple
 aa - long a as in ace
 b - as in book
@@ -55,14 +56,36 @@ y - as in yellow
 z - as in zebra
 
 ## Some example changes
-There are scores of spelling changes that result from the revised alphabet above. 
+
+There are scores of spelling changes that result from the revised alphabet above.
 The following, for example, are no longer needed:
 
 - all silent letters (b, c, e, g, k, s, as in climb, science, have, gnat, knife, island)
 - many phonics
 - nearly all double letters
 
-
 Helpful resources to see rules and exceptions to current English grammar
 https://englishstudyonline.org/
 https://englishstudyonline.org/words-with-silent-letters/
+
+## But ... Why?
+
+In history, human culture and society has always benefitted from a common trade language. When everybody understands each other, anything is possible.
+
+Currently, English is the trade language of the world. When people from different countries meet for business, politics, science, or almost any join human endeavor, if a single language is chosen as the primary mode of communication, it is nearly always English.
+
+However, English spelling and grammar are notoriusly difficult. Since English is a bastardized lanuage, melding together various aspects of German, Latin, Greek, French, Spanish, and several other languages, the rules for grammar and spelling are less "rules" and more like "suggestions" that seem to be broken more than they are followed.
+
+There is not much that can be done about English grammar. But English spelling can be updated and revized, making it easier for all English speakers to read, write, and understand English. If a system of spelling could be developed that was consistent and easy, it would help English further cement its role as the trade language of the world.
+
+And spelling changes are not new to any language. Especially English. As an example, just try to go read some [Old English](https://en.wikipedia.org/wiki/Old_English).
+
+So this project seeks to create a system of English spelling that is easy to remember and learn, and creates consistency across all English words so that the people of the world can better communicate with each other.
+
+## Developed By ...
+
+I am Jeremy Myers. I've been thinking about this project since I was about ten, and decided to practice my budding coding skills to see if I could make it happen.
+
+Or ... to write it another way ...
+
+Ii em Jaaremee Miiers. Ii'v ben theenking about this projekt sins Ii wus about ten, end deeciided to praktis mii buding kooding skils tuu see if Ii kud maak it hapen.
