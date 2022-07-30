@@ -38,6 +38,7 @@ y at end of word ? sometimes becomes ee -> funny -> funee, but my becomes mii
 ch needs to stay ch as in cheese, but become k as in ache ... so maybe che at end of word becomes k? 
 lk can become k as in walk, but needs to stay lk for milk
 ?? gal vs gall vs gale - rule if a word ends in a double letter, preceding vowel is short, if no double letter and silent e, preceding vowel is long
+?? how to get rid of silent h, as in honest, but keep it for hello, horror, 
 */
 
 // How to maintain capitalization in submitted text??? maybe use RegEx for everything with case insensitive match?? /i
@@ -57,6 +58,53 @@ To capture all silent e's and convert preceding vowel to long
 $1$1$2 - return capture1 two times and capture2 one time
 */
 
+/******
+ * FAR TOO MANY SPELLING EXCEPTIONS FOR THIS TO WORK... 
+ * 
+ * How would you do these:
+ * 
+1. Colonel                                                             
+2. Worcestershire
+3. Mischievous
+4. Draught
+5. Quinoa
+6. Onomatopoeia
+7. Scissors
+8. Anemone
+9. Isthmus
+10. Otorhinolaryngologist
+11. Squirrel
+12. Ignominious
+13. Successful
+14. Sixth
+15. Phenomenon
+16. Rural
+17. Specific
+18. Synecdoche
+19. Temperature
+20. Often
+
+ * MAYBE JUST IMPLEMENT A MAP WITH A DICTIONARY?
+ * I have an english dictionary file here:
+ * ../english.txt 
+ * But that has 194,000 words, and this doesn't include tense endings - ed, ing, s, es, etc., 
+ * 
+ * This one here, only has 84,000 words: 
+../engmix.txt 
+ * But again ... doesn't include endings ...
+ * 
+ * USA English only - 61,000 words
+../usa.txt
+ * 
+ * USA English only with - 77,000 words (not sure why there are two lists)
+../usa2.txt
+ * 
+ * here the top 3000 words: 
+ * https://www.ef.com/wwen/english-resources/english-vocabulary/top-3000-words/ 
+ * 
+ * I will use just the top 3000 words, becuase it gets us 90% there.
+ * 
+ */
 function respell(str) {
 	// should organize alphabetically?
 	// in some cases, the ORDER in which these are applied will matter...
@@ -67,9 +115,11 @@ function respell(str) {
 		.replace('ff', 'f')
 		.replace('gg', 'g')
 		.replace('ii', 'eei' /* ?? for words like skiing, taxiing, grafitiing, but should not conflict with long i -> ii, so maybe iing -> eeing */)
+		.replace('kk', 'k-k' /* for words like bookkeeping, but must come after ck and kn rules due to jackknife and knickknack, ck -> k and kn -> n */)
 		.replace('ll', 'l')
 		.replace('mm', 'm')
 		.replace('nn', 'n')
+		.replace('oo', 'u')
 		.replace('pp', 'p')
 		.replace('rr', 'r')
 		.replace('ss', 's')
@@ -100,12 +150,14 @@ function respell(str) {
 		.replace('aw', 'o')
 		.replace('ir', 'er')
 		.replace('ur', 'er')
-		.replace('kk', 'k-k' /* for words like bookkeeping, but must come after ck and kn rules due to jackknife and knickknack, ck -> k and kn -> n */)
+		.replace('wr', 'r')
 		.replace('ight', 'iit')
 		.replace('ing', 'eeng')
-		.replace(/([aeiou])([b-df-hj-np-tv-z]{1,2})+e\b/g, '$1$1$2' /* doesn't work for done*/)
+		.replace(/([aeiou])([b-df-hj-np-tv-z]{1,2})+e\b/g, '$1$1$2' /* doesn't work for 'done' and a lot of other words*/)
 		.replace(/y\b/g, 'ee')
-		.replace(/ed\b/g, 'd');
+		.replace(/ed\b/g, 'd')
+		.replace(/i\b/g, 'ee' /*eg tsunami */)
+		.replace(/\bts/g, 's' /*eg tsunami*/);
 }
 
 // removed for now .replace(/e\b/g, '') due to more complex regex above
