@@ -3015,20 +3015,54 @@ function isWordInMap(str) {
 }
 
 function hasUpperCase(str) {
-	if (/^[A-Z]*$/.test(str)) return true;
-	else return false;
+	return str.toLowerCase() != str;
+}
+
+function whereUpperCase(str) {
+	let letterArray = [];
+	let capLetterCount = 0;
+	let index = 0;
+	[...str].forEach(letter => {
+		if (letter === letter.toLowerCase()) {
+			// letter is lowercase, mark with -1
+			letterArray.push(-1);
+		} else {
+			// letter is uppercase
+			letterArray.push(index);
+			capLetterCount++;
+		}
+		index++;
+	});
+	// if the capLetterCount is equal to word length, ALL letters were capitalized, so mark it with ALL
+	if (capLetterCount === str.length) {
+		letterArray.push('ALL');
+	}
+	return letterArray;
 }
 
 function respell(str) {
 	let strArray = str.split(/(?=[.\s]|\b)/);
-	console.log(strArray);
-	// set a marker on words that are capitalized
-	const UCwords = strArray.map(word => hasUpperCase(word));
-	// need a function to show WHERE upper case is... is it first letter, all letters? just some letters?
+	// console.log(strArray);
+
+	// set a marker for words that are capitalized
+	const UCwords = strArray.map(word => {
+		if (/\b/.test(word)) return hasUpperCase(word);
+		else return false;
+	});
+
+	// show WHERE upper case letter is... is it first letter, all letters? just some letters?
+	let capLetters = [];
+	for (let i = 0; i < UCwords.length; i++) {
+		if (UCwords[i]) {
+			capLetters.push(whereUpperCase(strArray[i]));
+		} else {
+			capLetters.push([null]);
+		}
+	}
 
 	// convert all words to lowercase
 	const lcWords = strArray.map(word => {
-		if (word.length > 1) return word.toLowerCase();
+		if (word.length > 1) return word.toLowerCase(); // note that A and I do not get changed to lowercase
 		else return word;
 	});
 
@@ -3050,6 +3084,6 @@ function respell(str) {
 	return newStr;
 }
 
-let text = 'This is a test string. It has tricky words like queen, done, city, sight, fox, phonics, blithe, and site. If it works, then it worked. ';
+let text = 'This is a test string. It has tricky words like queen, done, city, sight, fox, phonics, blithe, and site. If it works, then it worked. A An ACA';
 let newText = respell(text);
 console.log(text + '\n' + newText);
