@@ -11,48 +11,49 @@ Making English easier to spell and read
    Each vowel has two sounds, a long and a short sound. Long sounds are indicated with doubled vowels.
 
 2. Exterminate phonics.
-   Most phonics is eliminated.
+   Most phonics are eliminated.
 
 3. Remove spelling exceptions.
    There are no more complicated spelling rules to remember (which always had exceptions anyway).
 
 4. Reduce reading rules.
-   There are only two rules now, which are found below.
-   1. Each letter has one sound.
-   2. Read the letters in order to form words.
+   There are only three rules now, which are found below.
+   1. Each consonant has one sound.
+   2. Each vowel has only two sounds ... a long and a short. The long vowel is indicated with doubled vowels (long a is aa, long e is ee, etc)
+   3. Read the letters to form words.
 
 ## The World English Alphabet
 
-a - short a as in apple
-aa - long a as in ace
-b - as in book
-c - no longer used except in hard ch (Soft c as in city is now s. Hard c as in candy and hard ch as in chorus are now both k)
-d - as in dog
-e - short e as in end
-ee - long e as in eat
-f - as in frank
-g - only soft g as in green (all hard g's as in gym are now j)
-h - as in hello
-i - short i as in if
-ii - long i as in island
-j - as in jim
-k - as in kite
-l - as in life
-m - as in mom
-n - as in new
-o - short o as in olive
-oo - long o as in book
-p - as in pin
-q - no longer needed anywhere, all qu becomes kw
-r - as in rim
-s - as in silly
-t - as in top
-u - short u as in up
-uu - long u as in tune (si this needed? The differnce between oo and uu is whether the sound rolls off the roof of your mouth(oo as in book) or tongue (uu as in boom) ... maybe depends on whether it is followed with a gutteral, labial, or dental?)
-v - as in vowel
-w - as in wet
-x - no longer needed (all x's become ks)
-y - as in yellow
+a - short a as in apple  
+aa - long a as in ace  
+b - as in book  
+c - no longer used except in hard ch (Soft c as in city is now s. Hard c as in candy and hard ch as in chorus are now both k)  
+d - as in dog  
+e - short e as in end  
+ee - long e as in eat  
+f - as in frank  
+g - only soft g as in green (all hard g's as in gym are now j)  
+h - as in hello  
+i - short i as in if  
+ii - long i as in island  
+j - as in jim  
+k - as in kite  
+l - as in life  
+m - as in mom  
+n - as in new  
+o - short o as in olive  
+oo - long o as in book  
+p - as in pin  
+q - no longer needed anywhere, all qu becomes kw  
+r - as in rim  
+s - as in silly  
+t - as in top  
+u - short u as in up  
+uu - long u as in tune (is this needed? The differnce between oo and uu is whether the sound rolls off the roof of your mouth(oo as in book) or tongue (uu as in boom) ... maybe depends on whether it is followed with a gutteral, labial, or dental?)  
+v - as in vowel  
+w - as in wet  
+x - no longer needed (all x's become ks)  
+y - as in yellow  
 z - as in zebra
 
 ## Some example changes
@@ -88,4 +89,4 @@ I am Jeremy Myers. I've been thinking about this project since I was about ten, 
 
 Or ... to write it another way ...
 
-Ii em Jaaremee Miiers. Ii'v ben theenking about this projekt sins Ii wus about ten, end deeciided to praktis mii buding kooding skils tuu see if Ii kud maak it hapen.
+Ii em Jaaremee Miiers. Ii'v ben theenkeen abowt this projekt sins Ii wus abowt ten, end deesiided to praktis mii budeen koodeen skils tuu see if Ii kud maak it hapen.
