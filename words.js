@@ -4,46 +4,91 @@
 // copy-paste into Notepad, and save as .json (use drop down All Files *.*, and select ANSI format, then change file ending to .json)
 // or for now, just copy-paste below... (since I can't figure out yet how to import a json file)
 
+// HMMM ... I MIGHT be able to just use the dictionaryapi for this...
+// https://dictionaryapi.dev/
+// It provides phonetic spelling which might be easier to "translate"
+// But how to use it to find "root" of words entered? (Is that evern necessary with phonetic spelling?)
+// The API does not seem to provide root words ... except at the end with the wictionary entry...
+// Here, for example, is the entry for "kicked"
+// https://api.dictionaryapi.dev/api/v2/entries/en/kicked
+// phonetic spelling provided is kikt, which is exactly correct.
+// The final sourceUrls property contains links to the word and its root on wictionary.com
+// So maybe the Wictionary API would be better?  https://en.wiktionary.org/w/api.php
+
+let kicked = [
+	{
+		word: 'kicked',
+		phonetic: '/kɪkt/',
+		phonetics: [{ text: '/kɪkt/', audio: 'https://api.dictionaryapi.dev/media/pronunciations/en/kicked-us.mp3', sourceUrl: 'https://commons.wikimedia.org/w/index.php?curid=2651103', license: { name: 'BY-SA 3.0', url: 'https://creativecommons.org/licenses/by-sa/3.0' } }],
+		meanings: [
+			{
+				partOfSpeech: 'verb',
+				definitions: [
+					{ definition: 'To strike or hit with the foot or other extremity of the leg.', synonyms: [], antonyms: [], example: 'Did you kick your brother?' },
+					{ definition: 'To make a sharp jerking movement of the leg, as to strike something.', synonyms: [], antonyms: [], example: 'He enjoyed the simple pleasure of watching the kickline kick.' },
+					{ definition: 'To direct to a particular place by a blow with the foot or leg.', synonyms: [], antonyms: [], example: 'Kick the ball into the goal.' },
+					{ definition: '(with "off" or "out") To eject summarily.', synonyms: [], antonyms: [] },
+					{ definition: 'To forcibly remove a participant from an online activity.', synonyms: [], antonyms: [], example: 'He was kicked by ChanServ for flooding.' },
+					{ definition: 'To overcome (a bothersome or difficult issue or obstacle); to free oneself of (a problem).', synonyms: [], antonyms: [], example: 'I still smoke, but they keep telling me to kick the habit.' },
+					{ definition: 'To move or push suddenly and violently.', synonyms: [], antonyms: [], example: 'He was kicked sideways by the force of the blast.' },
+					{ definition: '(of a firearm) To recoil; to push by recoiling.', synonyms: [], antonyms: [] },
+					{ definition: 'To attack (a piece) in order to force it to move.', synonyms: [], antonyms: [] },
+					{ definition: 'To accelerate quickly with a few pedal strokes in an effort to break away from other riders.', synonyms: [], antonyms: [], example: 'Contador kicks again to try to rid himself of Rasmussen.' },
+					{ definition: 'To show opposition or resistance.', synonyms: [], antonyms: [] },
+					{ definition: 'To work a press by impact of the foot on a treadle.', synonyms: [], antonyms: [] },
+				],
+				synonyms: [],
+				antonyms: [],
+			},
+			{ partOfSpeech: 'verb', definitions: [{ definition: 'To die.', synonyms: [], antonyms: [] }], synonyms: [], antonyms: [] },
+			{ partOfSpeech: 'adjective', definitions: [{ definition: '(smoking, of a pipe) Empty with nothing left to smoke but ash.', synonyms: [], antonyms: [] }], synonyms: ['caked'], antonyms: [] },
+		],
+		license: { name: 'CC BY-SA 3.0', url: 'https://creativecommons.org/licenses/by-sa/3.0' },
+		sourceUrls: ['https://en.wiktionary.org/wiki/kick', 'https://en.wiktionary.org/wiki/kicked'],
+	},
+];
+
 export const wordList = {
-	a: 'a',
-	abandon: 'abandon',
-	ability: 'ability',
-	able: 'able',
-	abortion: 'abortion',
-	about: 'about',
-	above: 'above',
-	abroad: 'abroad',
+	a: 'aa',
+	abandon: 'ubandun',
+	ability: 'ubilitee',
+	able: 'aabl',
+	abortion: 'uboorshun',
+	about: 'ubout',
+	above: 'ubove',
+	abroad: 'ubroad',
 	absence: 'absence',
 	absolute: 'absolute',
 	absolutely: 'absolutely',
-	absorb: 'absorb',
-	abuse: 'abuse',
+	absorb: 'ubsorb',
+	abuse: 'ubuse',
 	academic: 'academic',
 	accept: 'accept',
 	access: 'access',
 	accident: 'accident',
-	accompany: 'accompany',
-	accomplish: 'accomplish',
-	according: 'according',
-	account: 'account',
+	accompany: 'uccompany',
+	accomplish: 'uccomplish',
+	according: 'uccording',
+	account: 'uccount',
 	accurate: 'accurate',
-	accuse: 'accuse',
-	achieve: 'achieve',
-	achievement: 'achievement',
+	accuse: 'uccuse',
+	achieve: 'uchieve',
+	achievement: 'uchievement',
 	acid: 'acid',
 	acknowledge: 'acknowledge',
 	acquire: 'acquire',
-	across: 'across',
+	across: 'ucross',
 	act: 'act',
 	action: 'action',
 	active: 'active',
+	activate: 'activate',
 	activist: 'activist',
 	activity: 'activity',
 	actor: 'actor',
 	actress: 'actress',
 	actual: 'actual',
 	actually: 'actually',
-	ad: 'ad',
+	ad: '**ad',
 	adapt: 'adapt',
 	add: 'add',
 	addition: 'addition',

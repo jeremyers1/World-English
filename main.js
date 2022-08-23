@@ -61,7 +61,7 @@ function respell(str) {
 		else return word;
 	});
 
-	// temporarily remove word endings, es, ed, s ???, ing, ier(hungrier)
+	// temporarily remove word endings, es, ed, s ???, ing, ier(hungrier), iest, ied (stupified)
 	// Logic: If it has a word ending, AND the word is not found in the wordMap, then take off the ending, and check wordMap again
 
 	// now respell words
@@ -70,7 +70,7 @@ function respell(str) {
 		else return word;
 	});
 
-	// put endings back on
+	// put endings back on ... except ing needs to become een, ier = eer, iest = eest, ied = iid,
 
 	// recapitalize words that need it
 

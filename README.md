@@ -69,6 +69,8 @@ Helpful resources to see rules and exceptions to current English grammar
 https://englishstudyonline.org/
 https://englishstudyonline.org/words-with-silent-letters/
 
+Note: Frequently, it is very difficult to decide which pronunciation is correct. As an example, consider the very first word in the dictionary, the word "a." Sometimes it is pronounced as a long "a" for emphasis: "No, I wanted _a_ book." Most often, however, it is pronounced as "uh," which itself is not the short form of a (which would be "a" as in apple), but is the short form of "u," namely, "uh." So, should World English respell the word "a" as "aa" or as "u"? In this case, we have chosen to go with the long a, "aa," since "u" is a "lazy lengthening" of the word "a" which occurs when English speakers push out words quickly during coversation. It takes sligthly less tongue and lip movement to say "u" than "aa." This "lazy lengthening" of "aa" to "u" will likely still occur during conversation, but World English will prefer the more precise form of writing.
+
 ## But ... Why?
 
 In history, human culture and society has always benefitted from a common trade language. When everybody understands each other, anything is possible.
